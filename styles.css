@@ -12,10 +12,11 @@ body {
 }
 
 .navbar {
-  background: #fff;
-  padding: 20px 0;
-  border-bottom: 1px solid #eee;
-  float:right;
+	display: flex;
+	flex-direction: row;
+	background: #fff;
+	padding: 20px 0;
+	border-bottom: 1px solid #eee;
 }
 .navbar .brand {
   display: flex;
