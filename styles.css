@@ -9,15 +9,18 @@ body {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  display: flex;
 }
 
 .navbar {
 	display: flex;
-	flex-direction: row;
 	background: #fff;
 	padding: 20px 0;
 	border-bottom: 1px solid #eee;
+}
+
+.navbar .container {
+	display: flex;
+	flex-direction: row;
 }
 .navbar .brand {
   display: flex;
