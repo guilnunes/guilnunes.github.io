@@ -1,0 +1,192 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  color: #333;
+  line-height: 1.5;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar {
+  background: #fff;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+.navbar .brand {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.navbar .logo {
+  background: #000;
+  color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  font-weight: bold;
+}
+.menu {
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
+}
+.menu a {
+  color: #333;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 60px 0;
+}
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+}
+.hero-text {
+  flex: 1 1 300px;
+}
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.primary-btn {
+  background: #8978c7;
+  color: #fff;
+  padding: 12px 32px;
+  border-radius: 9999px;
+  text-decoration: none;
+  display: inline-block;
+}
+.hero-image img {
+  max-width: 300px;
+  border-radius: 20px;
+}
+
+.features {
+  background: #fff;
+  padding: 60px 0;
+}
+.features h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+}
+.feature-item {
+  text-align: center;
+}
+.feature-item .icon {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  color: #8978c7;
+}
+
+.guide {
+  background: #f5f2ff;
+  padding: 60px 0;
+}
+.guide-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+}
+.guide-text {
+  flex: 1 1 300px;
+}
+.guide-image img {
+  max-width: 300px;
+  border-radius: 8px;
+  background: #fff;
+  padding: 20px;
+}
+
+.testimonials {
+  padding: 60px 0;
+}
+.testimonials h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+}
+.testimonial-item {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+.testimonial-item .quote {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.testimonial-item .author {
+  color: #8978c7;
+  font-weight: 600;
+}
+
+.footer {
+  background: #fafafa;
+  padding: 40px 0;
+  border-top: 1px solid #eee;
+  font-size: 0.9rem;
+}
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.footer-brand {
+  flex: 1 1 250px;
+}
+.footer-brand .logo {
+  background: #000;
+  color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.footer-links {
+  display: flex;
+  flex: 2 1 400px;
+  gap: 40px;
+}
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+}
+.footer-links a:hover {
+  color: #8978c7;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+}

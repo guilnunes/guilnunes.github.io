@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PontoReborn - Versão simples</title>
+  <meta name="description" content="PontoReborn - Seu bebê reborn agora tem um app só para ele. Cuide do seu bebê reborn de forma digital." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="brand">
+        <div class="logo">R</div>
+        <span>PontoReborn</span>
+      </div>
+      <nav class="menu">
+        <a href="#sobre">Sobre a PontoReborn</a>
+        <a href="#app">O App</a>
+        <a href="#guia">Guia Reborn</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="sobre">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Seu bebê reborn agora tem um app só pra ele</h1>
+        <a href="#" class="primary-btn">Baixar App</a>
+      </div>
+      <div class="hero-image">
+        <img src="../public/placeholder.svg" alt="App screenshot" />
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="app">
+    <div class="container">
+      <h2>Cuide do seu bebê reborn de forma digital.</h2>
+      <div class="feature-grid">
+        <div class="feature-item">
+          <div class="icon">🛏</div>
+          <h3>Diário e agenda do bebê</h3>
+          <p>Registre momentos especiais e mantenha um calendário de cuidados.</p>
+        </div>
+        <div class="feature-item">
+          <div class="icon">🔔</div>
+          <h3>Alértas de cuidado</h3>
+          <p>Receba lembretes para troca de roupa, banho e outros cuidados.</p>
+        </div>
+        <div class="feature-item">
+          <div class="icon">❤️</div>
+          <h3>Momento de conexão</h3>
+          <p>Crie uma rotina para fortalecer o vínculo com seu bebê reborn.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="guide" id="guia">
+    <div class="container guide-content">
+      <div class="guide-text">
+        <h2>Guia completo para Papais e Mamães Reborn</h2>
+        <a href="#" class="primary-btn">Ler Guia</a>
+      </div>
+      <div class="guide-image">
+        <img src="../public/placeholder.svg" alt="Guia" />
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="container">
+      <h2>O que dizem nossos clientes</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-item">
+          <p class="quote">"O app é maravilhoso, uso todos os dias com meu reborn."</p>
+          <p class="author">Ana</p>
+        </div>
+        <div class="testimonial-item">
+          <p class="quote">"Muito útil para acompanhar a rotina do meu bebe reborn."</p>
+          <p class="author">Julia</p>
+        </div>
+        <div class="testimonial-item">
+          <p class="quote">"Adorei o guia! Super informativo e fácil de entender."</p>
+          <p class="author">Marcos</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contato">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <div class="logo">R</div>
+        <span>PontoReborn</span>
+        <p class="tagline">Cuidando do seu bebê reborn com carinho e tecnologia.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h3>App</h3>
+          <ul>
+            <li><a href="#">Download iOS</a></li>
+            <li><a href="#">Download Android</a></li>
+            <li><a href="#">Recursos</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Sobre</h3>
+          <ul>
+            <li><a href="#">Nossa História</a></li>
+            <li><a href="#">Equipe</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contato</h3>
+          <ul>
+            <li><a href="#">Email</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Suporte</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      © <span id="year"></span> PontoReborn. Todos os direitos reservados.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
