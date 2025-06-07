@@ -1,8 +1,34 @@
+
+/* typography */
+
+.hero-text h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.price {
+	font-size:2.5rem;
+	padding-left:10px;
+	color:#8978c7;
+}
+
+.hero-text {
+  flex: 1 1 300px;
+}
+
+.guide-text {
+  flex: 1 1 300px;
+}
+
+/* structure */
+
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   color: #333;
   line-height: 1.5;
+  font-size: 14px;
 }
 
 .container {
@@ -27,18 +53,7 @@ body {
   align-items: center;
   font-weight: 600;
 }
-.navbar .logo {
-  background: #000;
-  color: #fff;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 8px;
-  font-weight: bold;
-}
+
 .menu {
   margin-left: auto;
   display: flex;
@@ -49,22 +64,20 @@ body {
   text-decoration: none;
 }
 
+.logo {
+	max-width:200px;
+}
+
 .hero {
   padding: 60px 0;
 }
 .hero-content {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   gap: 20px;
+  align-items: flex-start;
 }
-.hero-text {
-  flex: 1 1 300px;
-}
-.hero-text h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
+
 .primary-btn {
   background: #8978c7;
   color: #fff;
@@ -74,8 +87,8 @@ body {
   display: inline-block;
 }
 .hero-image img {
-  max-width: 300px;
-  border-radius: 20px;
+  max-width: 380px;
+  vertical-align: top
 }
 
 .features {
@@ -92,6 +105,13 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 40px;
 }
+
+.pages-display {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+	gap: 16px;
+}
+
 .feature-item {
   text-align: center;
 }
@@ -99,6 +119,10 @@ body {
   font-size: 2rem;
   margin-bottom: 16px;
   color: #8978c7;
+}
+
+.feature-item img {
+  max-width: 160px;
 }
 
 .guide {
@@ -111,9 +135,7 @@ body {
   align-items: center;
   gap: 40px;
 }
-.guide-text {
-  flex: 1 1 300px;
-}
+
 .guide-image img {
   max-width: 300px;
   border-radius: 8px;
@@ -159,25 +181,12 @@ body {
   flex-wrap: wrap;
   gap: 40px;
 }
-.footer-brand {
-  flex: 1 1 250px;
-}
-.footer-brand .logo {
-  background: #000;
-  color: #fff;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  margin-bottom: 8px;
+
 }
 .footer-links {
   display: flex;
-  flex: 2 1 400px;
   gap: 40px;
+  flex-direction: column;
 }
 .footer-links ul {
   list-style: none;
